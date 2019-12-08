@@ -1,0 +1,16 @@
+# UserApi #
+user_api_create:
+    path: api/user/create
+    controller: Api\Controller\UserController::Create
+update:
+    path: api/user/update
+    controller: Api\Controller\UserController::Update
+user_api_delete:
+    path: api/user/delete
+    controller: Api\Controller\UserController::Delete
+user_api_get:
+    path: api/user/get
+    controller: Api\Controller\UserController::Get
+user_api_get_all:
+    path: api/user/get_all
+    controller: Api\Controller\UserController::getAll
